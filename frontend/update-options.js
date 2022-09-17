@@ -28,7 +28,7 @@ const UpdateOptions = ({ field }) => {
       choicesToJson = JSON.parse(newOptions)
       validJson = true
     } catch (e) {
-      return
+      validJson = false
     }
     if (!validJson && !useJson) {
       const choicesToAdd = newOptions
