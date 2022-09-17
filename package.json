@@ -1,0 +1,20 @@
+{
+  "name": "airtable-extension-select-option-manager",
+  "description": "Manage select options for an Airtable",
+  "version": "0.0.1",
+  "author": "Kevin Miller <kmiller@usdigitalresponse.org>",
+  "license": "Apache-2.0",
+  "scripts": {
+    "lint": "eslint frontend"
+  },
+  "dependencies": {
+    "@airtable/blocks": "1.8.0",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-plugin-react": "^7.18.3",
+    "eslint-plugin-react-hooks": "^2.5.0"
+  }
+}
