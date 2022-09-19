@@ -68,7 +68,13 @@ const UpdateOptions = ({ field }) => {
 
   return (
     <Box marginTop="1.5rem">
-      <Button onClick={() => setIsDialogOpen(!isDialogOpen)} icon="edit">
+      <Button
+        onClick={() => {
+          setIsDialogOpen(!isDialogOpen)
+          setUseJson(false)
+        }}
+        icon="edit"
+      >
         Update options
       </Button>
       {isDialogOpen && (

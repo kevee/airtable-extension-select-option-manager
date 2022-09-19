@@ -30,7 +30,6 @@ function SelectFieldValuesApp() {
             table={table}
             onChange={(newField) => setSelectedField(newField)}
             width="320px"
-            value={selectedField}
             allowedTypes={[FieldType.MULTIPLE_SELECTS, FieldType.SINGLE_SELECT]}
           />
           {selectedField && (
